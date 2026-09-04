@@ -37,9 +37,10 @@ npm install
 ```
 
 **4. Configure Environment Variables**
-Create a `.env` file in the root directory of the project. You can use the provided `example.env` as a reference. Add your API key to this file:
+Create a `.env` file in the root directory of the project. You can use the provided `example.env` as a reference. Add your API keys to this file:
 ```env
-GROQ_API_KEY=your_actual_api_key_here
+GROQ_API_KEY=your_groq_api_key_here
+GOOGLE_GENAI_API_KEY=your_gemini_api_key_here
 ```
 
 **5. Start the Application**
