@@ -9,7 +9,7 @@ const llm = new ChatGoogleGenerativeAI({
 });
 
 
-async function analyzeResume(resumeText) {
+async function AnalyzeResume(resumeText) {
     const prompt = `
     I’m going to share my resume as plain text. 
     Please read it carefully, evaluate it, and give it a score out of 10.
@@ -24,4 +24,4 @@ async function analyzeResume(resumeText) {
     return response.content;
 }
 
-export { analyzeResume };
+export { AnalyzeResume };
